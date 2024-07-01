@@ -3,4 +3,14 @@ Before running, you need to download the data first. Here is the link to the dat
 提取码：gi11). After that, modify the data path option in the main script's argument parser, and then simply run the main function to train the model.
 We saved the trained model parameters, ready for direct use and visualization analysis as file of 8-1.0000-best_model.pth
 
+This code references
+@misc{Zhao2019,
+author = {Zhibin Zhao and Qiyang Zhang and Xiaolei Yu and Chuang Sun and Shibin Wang and Ruqiang Yan and Xuefeng Chen},
+title = {Unsupervised Deep Transfer Learning for Intelligent Fault Diagnosis},
+year = {2019},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/ZhaoZhibin/UDTL}},
+}.
+
 
