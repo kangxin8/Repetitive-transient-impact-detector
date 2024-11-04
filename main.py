@@ -12,7 +12,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Train')
 
     # basic parameters
-    parser.add_argument('--model_name', type=str, default='con28pool4', help='the name of the model')
+    parser.add_argument('--model_name', type=str, default='revised_con2856pool4', help='the name of the model')
     parser.add_argument('--data_name', type=str, default='CWRUSlice', help='the name of the data')
     parser.add_argument('--data_dir', type=str, default= "E:\datasets\stft_224224_datasets\Train", help='the directory of the data')
     parser.add_argument('--normlizetype', type=str, choices=['0-1', '1-1', 'mean-std'], default='0-1', help='data normalization methods')
